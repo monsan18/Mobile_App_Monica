@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_marginTop="20dip"/>
+
+    <Button android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input Data"
+        android:textSize="20sp"
+        android:layout_margin="10sp"
+        android:textStyle="bold"
+        android:id="@+id/btnInput"
+        android:layout_marginTop="80dip"/>
+
+    <Button android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Data"
+        android:textSize="20sp"
+        android:layout_margin="10sp"
+        android:textStyle="bold"
+        android:id="@+id/btnView"
+        android:layout_marginTop="20dip"/>
+
+    <Button android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maps"
+        android:textSize="20sp"
+        android:layout_margin="10sp"
+        android:textStyle="bold"
+        android:id="@+id/btnMaps"
+        android:layout_marginTop="50dip"/>
+
+    <Button android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Logout"
+        android:textSize="20sp"
+        android:layout_margin="10sp"
+        android:textStyle="bold"
+        android:id="@+id/btnLogout"
+        android:layout_marginTop="30dip"/>
+
+</LinearLayout>
